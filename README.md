@@ -1,4 +1,4 @@
-# To-Do List & Goals API
+# To-Do List & Goals
 
 Aplicación backend con Node.js y Express para gestionar tareas y metas personales.
 
