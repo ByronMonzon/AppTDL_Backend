@@ -25,7 +25,7 @@ router.use((req, res, next)=>{
   if(req.headers.authorization && req.headers.authorization === '123456'){
     next();
   }else{
-    res.json({'error': 'No se encontro autorización!'});
+    res.status(401).json({'error': 'No se encontro autorización!'});
   }
 });
 
