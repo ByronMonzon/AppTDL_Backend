@@ -9,6 +9,8 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var usersTasks = require('./routes/tasks');
 var usersGoals = require('./routes/goals.js');
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://127.0.0.1:27017/desarrolloweb')
 
 var app = express();
 
